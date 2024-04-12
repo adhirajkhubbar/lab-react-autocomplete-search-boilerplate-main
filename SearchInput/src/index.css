@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+}
+
+.CountrySearchContainer {
+  text-align: center;
+  padding: 20px;
+}
+
+.search-input {
+  color: black;
+  padding: 4px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  outline: none;
+  text-indent: 5px;
+}
+
+.search-button {
+  padding: 12px;
+  margin-top: 5px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.result-item {
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 14px;
+  color: #fff;
+}
+
+.result-item:hover {
+  background-color: rgb(0, 141, 197);
+}
+
+.search-results {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
